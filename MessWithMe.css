@@ -1,0 +1,141 @@
+html, body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+  background: rgb(30, 30, 30);
+}
+
+.TitlePage{
+    text-align: center;
+    background: grey;
+    border: 1px;
+}
+
+.TitleLogo{
+    position: relative;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+
+}
+
+.WelcomeYorHa{
+    left: 50%;
+    position: absolute;
+    background: none;
+    border: 1px solid green;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 50px;
+    transform: translate(-50%, 0);
+    overflow: hidden;
+
+}
+
+.Akhiran{
+    left: 50%;
+    bottom: 5% ;
+    position: absolute;
+    transform: translate(-50%, 0);
+}
+
+.PoingUps{
+    background: rgb(25, 25, 25, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    top: 0;
+    align-items: center;
+}
+
+.Poping{
+    height: 250px;
+    width: 500px;
+    background-color: rgb(230, 230, 230);
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.PopingImage{
+  float: left
+}
+
+button{
+    background: none;
+    color: #ccc;
+    width: 280px;
+    height: 80px;
+    border: 1px solid #338033;
+    font-size: 20px;
+    border-radius: 4px;
+    transition: .2s;
+    overflow:hidden;
+    opacity: 2.0;
+  }
+  
+  button:focus{
+      outline: none;
+  }
+  
+  button:before{
+      content: '';
+      position: absolute;
+      background: rgba(155, 255, 155, .5);
+      width: 300px;
+      height: 100%;
+      opacity: 1.0;
+      filter: blur(100px);
+  }
+  
+  button:after{
+      content: '';
+      position: absolute;
+      background: rgba(155, 255, 155, .2);
+      width: 140px;
+      height: 100%;
+      opacity: 0.8;
+      filter: blur(80px);
+      
+  }
+  
+  button:hover{
+      background:rgba(155, 255, 155, .2);
+      opacity: 2.0;
+      cursor: pointer;
+  }
+
+input{
+    position: relative;
+    margin: 10px;
+    width: 300px;
+    height: 10px;
+    padding: 10px;
+    background: rgba(155, 255, 155, .2) ;
+    border: 2px solid black ;
+}
+
+.KidStar{
+    left: 50%;
+    position: absolute;
+    background: none;
+    border: 1px solid green;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 50px;
+    transform: translate(-50%, 0);
+    overflow: hidden;
+    bottom: -30%;
+
+}
+
+.UserArtic{
+    text-align: center;
+    position: absolut;
+    bottom: 20%;
+}
